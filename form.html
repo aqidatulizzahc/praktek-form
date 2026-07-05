@@ -11,11 +11,68 @@
 
     <form action="" method="get">
       <div class="wrapper">
-        <label for="username">Full name:</label>
-        <input type="text" id="username" name="username" />
-        <label for="username">Email address:</label>
-        <input type="text" id="username" name="username" />
+        <label for="fullname">Full name</label>
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          required
+          placeholder="Full name"
+        />
+
+        <label for="email">Email address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="nama@example.com"
+        />
+
+        <label for="contact">Contact No</label>
+        <input
+          type="tel"
+          id="contact"
+          name="contact"
+          required
+          placeholder="85173018956"
+        />
+
+        <label for="address">Address</label>
+        <textarea
+          name="address"
+          id="address"
+          placeholder="Enter your address"
+        ></textarea>
+
+        <label for="company-based">Where is your company based?</label>
+        <select name="company-based" id="company-based"></select>
+        <input
+          type="text"
+          id="company-based"
+          name="company-based"
+          placeholder="City"
+        />
+        <input
+          type="text"
+          id="company-based"
+          name="company-based"
+          placeholder="State"
+        />
+        <input
+          type="text"
+          id="company-based"
+          name="company-based"
+          placeholder="Zip-code"
+        />
+
+        <label for="date">Date picker</label>
+        <input type="date" id="date" name="date" placeholder="DD-MM-YYYY" />
+
+        <label for="">Time picker</label>
+        <label for="">Dropdown</label>
       </div>
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
